@@ -11,6 +11,42 @@
             margin-left: 20px;
             margin-right: 20px;
         }
+        nav {
+
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 15px 100px;
+background: #fff;
+box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1000;
+transition: 0.5s;
+}
+nav ul {
+ display: flex;
+}
+
+nav ul li a{
+padding: 10px 22px;
+color: var(--second-color);
+border-radius: 1px;
+font-weight: 600;
+letter-spacing: 1px;
+margin-right: 95px;
+}
+
+nav ul li a:hover{
+background: var(--second-color);
+color: var(--main-color);
+border: none;
+}
+body {
+            background-color: peru;
+        }
     </style>
 
    
@@ -19,6 +55,21 @@
 <img src="Isnawati Nur Mafuah.png" alt="Isna" width="200" height="300">
 
 <body class="indent">
+     <!-- navbar -->
+     <nav>
+
+        <a href="#"> Isna</a>
+
+    <!-- menu -->
+    <ul >
+
+        <li> <a href="#"> Home</a></li>
+        <li> <a href="#"> Biodata</a></li>
+        <li> <a href="#"> Portofolio</a></li>
+        <li> <a href="#"> Work</a></li>
+        
+    </ul>
+    </nav>
     <h2> Pengalaman Organisasi dan Kepanitian</h2>
     <li>Kepala Departemen SOsial Masyarakat HMJ-IE 2022</li>
     <li>Workshop Campus Hack Div Acara oleh BEM FEB UNEJ 2021</li>
